@@ -1,0 +1,6 @@
+app/config/dev.php
+app/config/test.php
+vendor/*
+.idea
+node_modules/
+web/assets/

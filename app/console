@@ -1,0 +1,103 @@
+#!/usr/bin/env php
+<?php
+
+use Doctrine\DBAL\Migrations\OutputWriter;
+use Doctrine\DBAL\Migrations\Configuration\Configuration;
+use Doctrine\DBAL\Migrations\Tools\Console\Command;
+use Silex\Application;
+use Symfony\Component\Console\Formatter\OutputFormatter;
+use Symfony\Component\Console\Input\InputOption;
+use Knp\Console\ConsoleEvents;
+use Knp\Console\ConsoleEvent;
+use FilelibIo\Command\VideosToFilelibCommand;
+use FilelibIo\Command\PublishFilesCommand;
+
+set_time_limit(0);
+
+require __DIR__ . '/../app/app.php';
+
+use Symfony\Component\Console\Input\ArgvInput;
+
+$env = (new ArgvInput())->getParameterOption(['--env'], 'dev');
+
+$app = (new Kernel($env, true))->createApplication();
+
+$app['dispatcher']->addListener(
+    ConsoleEvents::INIT,
+    function (ConsoleEvent $event) {
+        $app = $event->getApplication();
+        $conn = $app->getSilexApplication()['db'];
+
+        $outputWriter = new OutputWriter(
+            function ($message) {
+                $formatter = new OutputFormatter();
+
+                echo $formatter->format($message);
+                echo "\n";
+            }
+        );
+
+        $conf = new Configuration($conn, $outputWriter);
+        $conf->setMigrationsNamespace('FilelibIo\Migration');
+        $conf->setMigrationsDirectory(__DIR__ . '/../migration');
+        $conf->registerMigrationsFromDirectory($conf->getMigrationsDirectory());
+
+        $commands = [
+            new Command\DiffCommand(),
+            new Command\ExecuteCommand(),
+            new Command\GenerateCommand(),
+            new Command\MigrateCommand(),
+            new Command\StatusCommand(),
+            new Command\VersionCommand(),
+        ];
+
+        foreach ($commands as $command) {
+            $command->setMigrationConfiguration($conf);
+            $command->addOption('env', null, InputOption::VALUE_REQUIRED);
+        }
+
+        $app->addCommands($commands);
+
+        $command = new VideosToFilelibCommand($app->getSilexApplication());
+        $command->addOption('env', null, InputOption::VALUE_REQUIRED);
+
+        $command2 = new PublishFilesCommand($app->getSilexApplication());
+        $command2->addOption('env', null, InputOption::VALUE_REQUIRED);
+
+        $command3 = new \FilelibIo\Command\ImportImageQuestionsCommand($app->getSilexApplication());
+        $command3->addOption('env', null, InputOption::VALUE_REQUIRED);
+
+        $command4 = new \FilelibIo\Command\ImportVideoQuestionsCommand($app->getSilexApplication());
+        $command4->addOption('env', null, InputOption::VALUE_REQUIRED);
+
+        $command5 = new \FilelibIo\Command\ImportMultipleChoiceQuestionsCommand($app->getSilexApplication());
+        $command5->addOption('env', null, InputOption::VALUE_REQUIRED);
+
+        $command6 = new \FilelibIo\Command\ExerciseImagesToFilelibCommand($app->getSilexApplication());
+        $command6->addOption('env', null, InputOption::VALUE_REQUIRED);
+
+        $command7 = new \FilelibIo\Command\RandomizeMultipleChoiceQuestionsCommand($app->getSilexApplication());
+        $command7->addOption('env', null, InputOption::VALUE_REQUIRED);
+
+        $command8 = new \FilelibIo\Command\RecreateFilelibResourcesCommand($app->getSilexApplication());
+        $command8->addOption('env', null, InputOption::VALUE_REQUIRED);
+
+        $command9 = new \FilelibIo\Command\QueueProcessorCommand($app->getSilexApplication());
+        $command9->addOption('env', null, InputOption::VALUE_REQUIRED);
+
+        $app->addCommands([
+            $command,
+            $command2,
+            $command3,
+            $command4,
+            $command5,
+            $command6,
+            $command7,
+            $command8,
+            $command9
+        ]);
+    }
+);
+
+$console = $app['console'];
+$console->run();

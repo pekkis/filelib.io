@@ -1,0 +1,100 @@
+[16-Feb-2015 19:21:17 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Ring\Exception\RingException' with message 'cURL error 3: <url> malformed' in /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php:126
+Stack trace:
+#0 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php(90): GuzzleHttp\Ring\Client\CurlFactory::createErrorResponse(Object(GuzzleHttp\Ring\Client\CurlHandler), Array, Array)
+#1 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(77): GuzzleHttp\Ring\Client\CurlFactory::createResponse(Object(GuzzleHttp\Ring\Client\CurlHandler), Array, Array, Array, Resource id #65)
+#2 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(54): GuzzleHttp\Ring\Client\CurlHandler->__invoke(Array)
+#3 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(30): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Client\{closure}(Array)
+#4 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(129): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Clien in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 51
+[16-Feb-2015 19:21:39 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Ring\Exception\RingException' with message 'cURL error 3: <url> malformed' in /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php:126
+Stack trace:
+#0 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php(90): GuzzleHttp\Ring\Client\CurlFactory::createErrorResponse(Object(GuzzleHttp\Ring\Client\CurlHandler), Array, Array)
+#1 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(77): GuzzleHttp\Ring\Client\CurlFactory::createResponse(Object(GuzzleHttp\Ring\Client\CurlHandler), Array, Array, Array, Resource id #65)
+#2 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(54): GuzzleHttp\Ring\Client\CurlHandler->__invoke(Array)
+#3 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(30): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Client\{closure}(Array)
+#4 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(129): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Clien in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 51
+[16-Feb-2015 19:22:00 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Ring\Exception\RingException' with message 'cURL error 3: <url> malformed' in /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php:126
+Stack trace:
+#0 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php(90): GuzzleHttp\Ring\Client\CurlFactory::createErrorResponse(Object(GuzzleHttp\Ring\Client\CurlHandler), Array, Array)
+#1 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(77): GuzzleHttp\Ring\Client\CurlFactory::createResponse(Object(GuzzleHttp\Ring\Client\CurlHandler), Array, Array, Array, Resource id #66)
+#2 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(54): GuzzleHttp\Ring\Client\CurlHandler->__invoke(Array)
+#3 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(30): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Client\{closure}(Array)
+#4 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(129): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Clien in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 51
+[16-Feb-2015 19:22:19 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Ring\Exception\RingException' with message 'cURL error 3: <url> malformed' in /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php:126
+Stack trace:
+#0 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php(90): GuzzleHttp\Ring\Client\CurlFactory::createErrorResponse(Object(GuzzleHttp\Ring\Client\CurlHandler), Array, Array)
+#1 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(77): GuzzleHttp\Ring\Client\CurlFactory::createResponse(Object(GuzzleHttp\Ring\Client\CurlHandler), Array, Array, Array, Resource id #66)
+#2 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(54): GuzzleHttp\Ring\Client\CurlHandler->__invoke(Array)
+#3 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(30): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Client\{closure}(Array)
+#4 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(129): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Clien in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 51
+[16-Feb-2015 19:22:31 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Ring\Exception\RingException' with message 'cURL error 3: <url> malformed' in /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php:126
+Stack trace:
+#0 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php(90): GuzzleHttp\Ring\Client\CurlFactory::createErrorResponse(Object(GuzzleHttp\Ring\Client\CurlHandler), Array, Array)
+#1 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(77): GuzzleHttp\Ring\Client\CurlFactory::createResponse(Object(GuzzleHttp\Ring\Client\CurlHandler), Array, Array, Array, Resource id #66)
+#2 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(54): GuzzleHttp\Ring\Client\CurlHandler->__invoke(Array)
+#3 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(30): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Client\{closure}(Array)
+#4 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(129): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Clien in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 51
+[16-Feb-2015 19:22:44 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Ring\Exception\RingException' with message 'cURL error 3: <url> malformed' in /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php:126
+Stack trace:
+#0 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php(90): GuzzleHttp\Ring\Client\CurlFactory::createErrorResponse(Object(GuzzleHttp\Ring\Client\CurlHandler), Array, Array)
+#1 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(77): GuzzleHttp\Ring\Client\CurlFactory::createResponse(Object(GuzzleHttp\Ring\Client\CurlHandler), Array, Array, Array, Resource id #66)
+#2 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(54): GuzzleHttp\Ring\Client\CurlHandler->__invoke(Array)
+#3 /wwwroot/filelib.io/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(30): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Client\{closure}(Array)
+#4 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(129): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Clien in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 51
+[16-Feb-2015 19:24:08 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ServerException' with message 'Server error response [url] http://dporssi.tunk.io/puuppa/poksy [status code] 500 [reason phrase] Internal Server Error' in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(33): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(109): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(132): GuzzleHttp\RequestFsm->__invoke(Object(GuzzleHttp\Transaction))
+#4 /wwwroot/filelib.io/vendor/react/promise/src/FulfilledPromise.ph in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[16-Feb-2015 19:24:21 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ServerException' with message 'Server error response [url] http://dporssi.tunk.io/puuppa/poksy [status code] 500 [reason phrase] Internal Server Error' in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(33): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(109): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(132): GuzzleHttp\RequestFsm->__invoke(Object(GuzzleHttp\Transaction))
+#4 /wwwroot/filelib.io/vendor/react/promise/src/FulfilledPromise.ph in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[16-Feb-2015 19:24:52 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ServerException' with message 'Server error response [url] http://dporssi.tunk.io/puuppa/poksy [status code] 500 [reason phrase] Internal Server Error' in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(33): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(109): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(132): GuzzleHttp\RequestFsm->__invoke(Object(GuzzleHttp\Transaction))
+#4 /wwwroot/filelib.io/vendor/react/promise/src/FulfilledPromise.ph in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[16-Feb-2015 19:26:14 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ServerException' with message 'Server error response [url] http://dporssi.tunk.io/puuppa/poksy [status code] 500 [reason phrase] Internal Server Error' in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(33): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(109): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(132): GuzzleHttp\RequestFsm->__invoke(Object(GuzzleHttp\Transaction))
+#4 /wwwroot/filelib.io/vendor/react/promise/src/FulfilledPromise.ph in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[16-Feb-2015 19:26:29 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ServerException' with message 'Server error response [url] http://dporssi.tunk.io/puuppa/poksy [status code] 500 [reason phrase] Internal Server Error' in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(33): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(109): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(132): GuzzleHttp\RequestFsm->__invoke(Object(GuzzleHttp\Transaction))
+#4 /wwwroot/filelib.io/vendor/react/promise/src/FulfilledPromise.ph in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89
+[16-Feb-2015 19:26:43 UTC] PHP Notice:  Undefined variable: res in /wwwroot/filelib.io/test/post.php on line 20
+[16-Feb-2015 19:26:43 UTC] PHP Stack trace:
+[16-Feb-2015 19:26:43 UTC] PHP   1. {main}() /wwwroot/filelib.io/test/post.php:0
+[16-Feb-2015 19:26:43 UTC] PHP Fatal error:  Call to a member function getStatusCode() on a non-object in /wwwroot/filelib.io/test/post.php on line 20
+[16-Feb-2015 19:26:43 UTC] PHP Stack trace:
+[16-Feb-2015 19:26:43 UTC] PHP   1. {main}() /wwwroot/filelib.io/test/post.php:0
+[16-Feb-2015 19:37:38 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ParseException' with message 'Unable to parse JSON data: JSON_ERROR_SYNTAX - Syntax error, malformed JSON' in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Message/Response.php:148
+Stack trace:
+#0 /wwwroot/filelib.io/test/post.php(26): GuzzleHttp\Message\Response->json()
+#1 {main}
+  thrown in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Message/Response.php on line 148
+[16-Feb-2015 19:37:56 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ParseException' with message 'Unable to parse JSON data: JSON_ERROR_SYNTAX - Syntax error, malformed JSON' in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Message/Response.php:148
+Stack trace:
+#0 /wwwroot/filelib.io/test/post.php(26): GuzzleHttp\Message\Response->json()
+#1 {main}
+  thrown in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Message/Response.php on line 148
+[16-Feb-2015 19:38:29 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error response [url] http://dporssi.filelib.tunk.io/puuppa/poksy [status code] 404 [reason phrase] Not Found' in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:89
+Stack trace:
+#0 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php(33): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Message\Request), Object(GuzzleHttp\Message\Response))
+#1 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Event/Emitter.php(109): GuzzleHttp\Subscriber\HttpError->onComplete(Object(GuzzleHttp\Event\CompleteEvent), 'complete')
+#2 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(91): GuzzleHttp\Event\Emitter->emit('complete', Object(GuzzleHttp\Event\CompleteEvent))
+#3 /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/RequestFsm.php(132): GuzzleHttp\RequestFsm->__invoke(Object(GuzzleHttp\Transaction))
+#4 /wwwroot/filelib.io/vendor/react/promise/src/FulfilledPromise.php(24 in /wwwroot/filelib.io/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 89

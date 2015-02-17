@@ -1,0 +1,21 @@
+{
+    "require": {
+        "silex/silex": "~1.0",
+        "monolog/monolog": "~1.0",
+        "doctrine/dbal": "~2.4",
+        "igorw/config-service-provider": "~1.2",
+        "doctrine/migrations": "dev-master",
+        "knplabs/console-service-provider": "~1.0",
+        "xi/filelib": "0.13.*",
+        "aws/aws-sdk-php": "~2.5",
+        "zencoder/zencoder-php": "~2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "phpunit/phpunit-selenium": "~1.3",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "autoload": {
+        "psr-0": {"FilelibIo": ["backend/src/"]}
+    }
+}
